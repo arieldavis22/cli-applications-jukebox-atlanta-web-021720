@@ -34,7 +34,7 @@ def play(songs)
     if user_input == i
       puts "#{songs[i - 1]}"
 
-    elsif user_input = songs[i]
+    elsif user_input == songs[i]
       puts "#{songs[i]}"
     else
       puts "Invalid input, please try again"
