@@ -32,7 +32,7 @@ def play(songs)
 
   songs.each_with_index do |value, index|
     if user_input == index
-      puts "Playing #{songs[index - 1]}"
+      puts "Playing #{songs[index]}"
     elsif user_input === value
       puts "Playing #{value}"
     else
