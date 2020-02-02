@@ -1,4 +1,5 @@
 # Add your code here
+require "pry"
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -28,17 +29,5 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-
-  i = 0
-  while i < songs.length do
-    if user_input == i
-      puts "#{songs[i - 1]}"
-
-    elsif user_input == songs[i]
-      puts "#{songs[i]}"
-    else
-      puts "Invalid input, please try again"
-    end
-    i += 1
-  end
+  
 end
