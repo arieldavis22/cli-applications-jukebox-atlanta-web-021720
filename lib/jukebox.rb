@@ -33,6 +33,9 @@ def play(songs)
   while i < songs.length do
     if user_input == i
       puts "#{songs[i - 1]}"
+
+    elsif user_input = songs[i]
+      puts "#{songs[i]}"
     else
       puts "Invalid input, please try again"
     end
