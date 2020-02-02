@@ -31,6 +31,7 @@ def play(songs)
   user_input = gets.strip
 
   songs.each_with_index do |value, index|
-    binding.pry
+    if user_input === index
+      puts "Playing #{songs[index - 1]}"
   end
 end
