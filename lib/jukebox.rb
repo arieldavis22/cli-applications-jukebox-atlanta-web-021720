@@ -36,7 +36,7 @@ def play(songs)
     elsif user_input === value
       puts "Playing #{value}"
     else
-      puts "Invalid input, please try again"
+       "Invalid input, please try again"
     end
   end
 end
