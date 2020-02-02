@@ -34,5 +34,6 @@ def play(songs)
     if user_input === index
       puts "Playing #{songs[index - 1]}"
       binding.pry
+    end
   end
 end
