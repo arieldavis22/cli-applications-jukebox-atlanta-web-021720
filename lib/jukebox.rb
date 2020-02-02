@@ -33,7 +33,7 @@ def play(songs)
   songs.each_with_index do |value, index|
     if user_input === index
       puts "Playing #{songs[index - 1]}"
-      binding.pry
     end
   end
+  binding.pry
 end
